@@ -1,0 +1,230 @@
+#Files that shouldn't be saved
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+node_modules/
+Instructor/
+**/package-lock.json
+# Visual Studio 2015 cache/options directory
+.vs/
+#Other
+.vscode
+.DS_Store/
+# In-Class are the same as Unsolved (CP), but ignored to prevent accidental merge conflicts
+*/*/*/In-Class
+## the following alias is used to push class content
+## ma for activities, ms for activity solutions ##
+# Class activity files:
+*/*-Activities/*/Solved
+*/*/*/Solved
+*/*/*/package-lock.json
+*/*/*/*/.env
+#*/*-Activities/*/Unsolved
+*/*-Algorithms/*/Solved
+*/*-Challenge/Main
+*/*-Module-Project/Main
+*/*-Module-Project/lesson-files/*
+*-REQUIRED.md
+*_backup/
+*/README.md
+08-*
+16-*
+23-*
+24-*
+!*/*-Module-Project/lesson-files/1.*
+!*/*-Module-Project/lesson-files/2.*
+!*/*-Module-Project/lesson-files/3.*
+!*/*-Module-Project/lesson-files/4.*
+!*/*-Module-Project/lesson-files/5.*
+!*/*-Module-Project/lesson-files/6.*
+!*/*-Module-Project/lesson-files/9.*
+!*/*-Module-Project/lesson-files/10.*
+!*/*-Module-Project/lesson-files/11.*
+!*/*-Module-Project/lesson-files/12.*
+!*/*-Module-Project/lesson-files/13.*
+!*/*-Module-Project/lesson-files/14.*
+!*/*-Module-Project/lesson-files/17.*
+!*/*-Module-Project/lesson-files/18.*
+!*/*-Module-Project/lesson-files/19.*
+!*/*-Module-Project/lesson-files/20.*
+!*/*-Module-Project/lesson-files/21.*
+!*/*-Module-Project/lesson-files/22.*
+!01-HTML-Git-CSS/*/01-*/Solved
+!01-HTML-Git-CSS/*/02-*/Solved
+!*/*-Module-Project/lesson-files/1.1
+!*/*-Module-Project/lesson-files/1.2
+!*/*-Module-Project/lesson-files/1.3
+!*/*-Module-Project/lesson-files/1.4
+!*/*-Module-Project/lesson-files/1.5
+!*/*-Module-Project/lesson-files/1.6
+!*/*-Module-Project/lesson-files/1.7
+!01-HTML-Git-CSS/*/03-*/Solved
+!01-HTML-Git-CSS/*/04-*/Solved
+!01-HTML-Git-CSS/*/05-*/Solved
+!02-Advanced-CSS/*/01-*/Unsolved
+!02-Advanced-CSS/*/02-*/Unsolved
+#### Module 2, Virtual Class 2 #######
+!02-Advanced-CSS/*/03-*/Unsolved
+!02-Advanced-CSS/*/04-*/Unsolved
+!02-Advanced-CSS/*/05-*/Unsolved
+!02-Advanced-CSS/*/01-*/Solved
+!02-Advanced-CSS/*/02-*/Solved
+!02-Advanced-CSS/*/03-*/Solved
+!02-Advanced-CSS/*/04-*/Solved
+!02-Advanced-CSS/*/05-*/Solved
+#### Module 3, Virtual Class 1 #######
+!03-JavaScript/*-Activities/01-*/Unsolved
+!03-JavaScript/*-Activities/02-*/Unsolved
+!03-JavaScript/*-Activities/01-*/Solved
+!03-JavaScript/*-Activities/02-*/Solved
+!03-JavaScript/*-Algorithms/*/Solved
+#### Module 3, Virtual Class 2 #######
+!03-JavaScript/*/03-*/Unsolved
+!03-JavaScript/*/04-*/Unsolved
+!03-JavaScript/*/05-*/Unsolved
+!03-JavaScript/*/03-*/Solved
+!03-JavaScript/*/04-*/Solved
+#### Module 4, Virtual Class 1 #######
+!03-JavaScript/*/05-*/Solved
+!04-Web-APIs/*/01-*/Unsolved
+!04-Web-APIs/*/02-*/Unsolved
+!04-Web-APIs/*/01-*/Solved
+!04-Web-APIs/*/02-*/Solved
+!04-Web-APIs/*-Algorithms/*/Solved
+#### Module 4, Virtual Class 2 #######
+!04-Web-APIs/*/03-*/Unsolved
+!04-Web-APIs/*/04-*/Unsolved
+!04-Web-APIs/*/05-*/Unsolved
+!04-Web-APIs/*/03-*/Solved
+!04-Web-APIs/*/04-*/Solved
+!04-Web-APIs/*/05-*/Solved
+#### Module 5, Virtual Class 1 #######
+!05-Third-Party-APIs/*/01-*/Unsolved
+!05-Third-Party-APIs/*/02-*/Unsolved
+!05-Third-Party-APIs/*/01-*/Solved
+!05-Third-Party-APIs/*/02-*/Solved
+#### Module 5, Virtual Class 2 #######
+!05-Third-Party-APIs/*/03-*/Unsolved
+!05-Third-Party-APIs/*/04-*/Unsolved
+!05-Third-Party-APIs/*/05-*/Unsolved
+!05-Third-Party-APIs/*/03-*/Solved
+!05-Third-Party-APIs/*/04-*/Solved
+!05-Third-Party-APIs/*/05-*/Solved
+!05-Third-Party-APIs/*-Algorithms/*/Solved
+#### Module 6, Virtual Class 1 #######
+!06-Server-Side-APIs/*-Activities/01-*/Solved
+!06-Server-Side-APIs/*-Activities/02-*/Solved
+!06-Server-Side-APIs/*-Algorithms/*/Solved
+#### Module 6, Virtual Class 2 #######
+!06-Server-Side-APIs/*-Activities/03-*/Solved
+!06-Server-Side-APIs/*-Activities/04-*/Solved
+!06-Server-Side-APIs/*-Activities/05-*/Solved
+!07-Project-*
+07-Project-*/07.1-REQUIRED.md
+07-Project-*/07.2-REQUIRED.md
+07-Project-*/README.md
+#### Module 9, Virtual Class 1 #######
+!09-NodeJS/*/01-*/Solved
+!09-NodeJS/*/02-*/Solved
+#### Module 9, Virtual Class 2 #######
+!09-NodeJS/*/03-*/Solved
+!09-NodeJS/*/04-*/Solved
+!09-NodeJS/*/05-*/Solved
+!09-NodeJS/*-Algorithms/*/Solved
+#### Module 10, Virtual Classes #######
+!10-OOP/*/01-*/Solved
+!10-OOP/*/02-*/Solved
+!10-OOP/*/03-*/Solved
+!10-OOP/*/04-*/Solved
+!10-OOP/*/05-*/Solved
+!10-OOP/*-Algorithms/*/Solved
+#### Module 11 #######
+!11-Express/*/01-*/Solved
+!11-Express/*/02-*/Solved
+!11-Express/*/03-*/Solved
+!11-Express/*/04-*/Solved
+!11-Express/*/05-*/Solved
+!11-Express/*-Algorithms/*/Solved
+#### Module 12 #######
+!12-SQL/*/01-*/Solved
+!12-SQL/*/02-*/Solved
+!12-SQL/*/03-*/Solved
+!12-SQL/*/04-*/Solved
+!12-SQL/*/05-*/Solved
+!12-SQL/*-Algorithms/*/Solved
+#### Module 12 #######
+!13-ORM/*/01-*/Solved
+!13-ORM/*/02-*/Solved
+!13-ORM/*/03-*/Solved
+!13-ORM/*/04-*/Solved
+!13-ORM/*/05-*/Solved
+!13-ORM/*-Algorithms/*/Solved
+#### Module 14 #######
+!14-MVC/*/01-*/Solved
+!14-MVC/*/02-*/Solved
+!14-MVC/*/03-*/Solved
+!14-MVC/*/04-*/Solved
+!14-MVC/*/05-*/Solved
+!14-MVC/*-Algorithms/*/Solved
+#### Module 15 #######
+15-Project-*/15.*-REQUIRED.md
+!15-Project-*/README.md
+#### Module 17 #######
+!17-CS/*/01-*/Solved
+!17-CS/*/02-*/Solved
+!17-CS/*-Algorithms/*/Solved
+#### Module 18 #######
+!18-NoSQL/*/01-*/Solved
+!18-NoSQL/*/02-*/Solved
+!18-NoSQL/*/03-*/Solved
+!18-NoSQL/*/04-*/Solved
+!18-NoSQL/*/05-*/Solved
+!18-NoSQL/*-Algorithms/*/Solved
+#### Module 19 #######
+!19-PWA/*/01-*/Solved
+!19-PWA/*/02-*/Solved
+!19-PWA/*/03-*/Solved
+!19-PWA/*/04-*/Solved
+!19-PWA/*/05-*/Solved
+!19-PWA/*-Algorithms/*/Solved
+#### Module 20 #######
+20-React/*/00-*/src_*
+20-React/*/00-*/src/*
+20-React/*/00-*/public
+!20-React/*/00-*/src/.gitkeep
+!20-React/*/01-*/Solved
+!20-React/*/02-*/Solved
+!20-React/*/03-*/Solved
+!20-React/*/04-*/Solved
+!20-React/*/05-*/Solved
+!20-React/*-Algorithms/*/Solved
+#### Module 21 #######
+!21-MERN/*/01-*/Solved
+!21-MERN/*/02-*/Solved
+!21-MERN/*/03-*/Solved
+!21-MERN/*/04-*/Solved
+!21-MERN/*/05-*/Solved
+!21-MERN/*/05-*/Solved
+!21-MERN/*-Algorithms/*/Solved
+#### Module 22 #######
+22-State/*/00-practice-app/*
+!22-State/*/01-*/Solved
+!22-State/*/02-*/Solved
+#!22-State/*/03-*/Solved
+#!22-State/*/04-*/Solved
+#!22-State/*/05-*/Solved
+#!22-State/*/05-*/Solved
+!22-State/*-Algorithms/*/Solved
